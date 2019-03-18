@@ -8,7 +8,7 @@
 
 "use strict"
 
-require( "coffee-script" ).register?()
+require( "coffeescript" ).register?()
 
 Command = require "codo/lib/command"
 Codo = require "codo/lib/codo"

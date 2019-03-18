@@ -11,7 +11,7 @@ var Codo, CodoCommand, Command, base,
   extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
   hasProp = {}.hasOwnProperty;
 
-if (typeof (base = require("coffee-script")).register === "function") {
+if (typeof (base = require("coffeescript")).register === "function") {
   base.register();
 }
 
