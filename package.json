@@ -62,7 +62,7 @@
   },
   "dependencies": {
     "chalk": "~1.1",
-    "codo": "~2.1",
+    "codo": "^2.1",
     "coffeescript": "^2.3.2",
     "cli-table": "~0.3",
     "lodash": "~4.11"
